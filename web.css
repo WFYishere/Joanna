@@ -1,4 +1,19 @@
+/*This is the syntax for a comment in CSS*/
+
 body{
-  margin : 100px;
-  tex-align : Center;
+	background-color: black;
+	color: white;
+	font-family: "Helvetica", "Arial", sans-serif;
+  /*provide back-up fonts if needed*/
+}
+
+p {
+	margin: 10px;
+	padding: 10px;
+
+	/* For a border around your paragraphs */
+	border-style: solid;
+	border-width: 3px;
+
+	text-align: justify;
 }
